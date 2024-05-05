@@ -1,0 +1,37 @@
+html{
+    font-family: 'Public Sans', sans-serif;
+}
+
+.lista{
+    display: flex;
+    justify-content: center;
+    padding: 130px;
+    
+}
+
+.lista .pintura{
+    position: relative;
+    padding: 10px;
+}
+
+.lista.pintura img{
+    width: 335px;
+    height: 432px;
+}
+
+.lista .pintura .informacao{
+    position: absolute;
+    bottom: 43px;
+    left: 19px;
+    color: #ffffff;
+}
+
+.lista .pintura .informacao .titulo{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.lista .pintura .informacao .subtitulo{
+    font-weight: 300;
+    font-size: 17px;
+}
